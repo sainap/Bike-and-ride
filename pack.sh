@@ -1,0 +1,1 @@
+zip bike-and-ride manifest.json package.json background.js main.js lib/* 

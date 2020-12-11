@@ -1,0 +1,24 @@
+{
+    "name": "Bike and Ride",
+    "version": "0.0.0.3",
+    "description": "Add commute for biking and taking public transit to Redfin.",
+    "manifest_version": 2,
+    "permissions": [
+        "activeTab"
+    ],
+    "content_scripts": [
+        {
+            "matches": ["https://*.redfin.com/*", "https://5e6syzy3e3.execute-api.us-west-2.amazonaws.com/*", "https://v5a7p64ixk.execute-api.us-west-2.amazonaws.com/default/*"],
+        "js": ["main.js"]
+        }
+    ],
+    "background": {
+        "scripts": [
+          "background.js"
+        ],
+        "persistent": false
+    },
+    "icons": { "16": "lib/icon16.png",
+        "48": "lib/icon48.png",
+       "128": "lib/icon128.png" }
+}

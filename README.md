@@ -4,8 +4,7 @@ Chrome extension to show commute time using a bike and public transit for home b
 
 This project was inspired by the process of home shopping. Finding a home is tough, but finding a home that has a reasonably short commute - if you don't drive is a whole different story.
 
-![Bike and Ride screenshot example](https://chrome.google.com/webstore/detail/bikeride/infhpbjmcjhdbchempmppkolaaggebko?hl=en&authuser=0)
-
+[Bike and Ride screenshot example](https://github.com/sainap/example.png)
 
 
 ### Built With

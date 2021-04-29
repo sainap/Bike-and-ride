@@ -1,6 +1,6 @@
 // returns the address of the property being viewed
 function getHomeAddress() {
-  return document.getElementsByClassName('address inline-block')[0].textContent;
+  return document.getElementsByClassName("homeAddress-variant")[0].textContent;
 }
 
 // returns set of destinations
